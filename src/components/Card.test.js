@@ -1,4 +1,4 @@
-import { shallow, mount, render} from 'enzyme'
+import { shallow } from 'enzyme'
 // mount - needs full DOM rendering, has to run in environment
 // that at least looks like browser environment
 // mounts the component on a DOM
@@ -9,6 +9,6 @@ import React from 'react'
 import Card from './Card'
 
 it('expect to render Card component', () => {
-  expect(shallow(<Card/>).length).toEqual(1)
+  expect(shallow(<Card />)).toMatchSnapshot()
 })
 
