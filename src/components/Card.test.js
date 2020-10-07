@@ -1,4 +1,5 @@
 import { shallow } from 'enzyme'
+
 // mount - needs full DOM rendering, has to run in environment
 // that at least looks like browser environment
 // mounts the component on a DOM
