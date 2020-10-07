@@ -13,4 +13,3 @@ it('expect to render Card component', () => {
   ]
   expect(shallow(<CardList robots={mockRobots} />)).toMatchSnapshot()
 })
-
